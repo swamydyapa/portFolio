@@ -3,9 +3,15 @@ import { projectsData } from "./Data";
 import { projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
 
+interface Project {
+	id: number;
+	image: string;
+	title: string;
+	category: string;
+}
 const Works = () => {
 	const [item, setItem] = useState({ name: "all" });
-	const [projects, setProjects] = useState([]);
+	const [projects, setProjects] = useState<Project[]>([]);
 	const [active, setActive] = useState(0);
 
 	useEffect(() => {
@@ -19,14 +25,14 @@ const Works = () => {
 		}
 	}, [item]);
 
-	const handleClick = (e, index) => {
+	const handleClick = (e, index: number) => {
 		setItem({ name: e.target.textContent.toLowerCase() });
 		setActive(index);
 	};
 	return (
 		<>
 			<div className="work__filters">
-				{projectsNav.map((item, index) => {
+				{projectsNav.map((item, index: number) => {
 					return (
 						<span
 							onClick={(e) => {

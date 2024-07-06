@@ -10,4 +10,10 @@ export default defineConfig({
 		"process.env": JSON.stringify(dotenv.config().parsed),
 	},
 	base: "/portFolio/",
+	build: {
+		outDir: "dist",
+	},
+	resolve: {
+		extensions: [".ts", ".tsx", ".js", ".jsx"],
+	},
 });

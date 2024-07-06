@@ -45,7 +45,7 @@ export const formFields = [
 				message: "Username should not exceed 50 characters",
 			},
 			validate: {
-				noWhitespace: (value) =>
+				noWhitespace: (value: string) =>
 					value.trim() !== "" || "Name cannot be just whitespace",
 			},
 		},

@@ -1,7 +1,6 @@
 import React from "react";
 import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
-import { DevTool } from "@hookform/devtools";
 
 import "./contact.css";
 
@@ -67,8 +66,8 @@ const Contact = () => {
 											<textarea
 												id={field.name}
 												{...register(field.name, field.validation)}
-												cols="30"
-												rows="10"
+												cols={30}
+												rows={10}
 												className="contact__form-input contact__form-area "
 												placeholder={field.placeholder}></textarea>
 										</div>
@@ -84,7 +83,7 @@ const Contact = () => {
 								</div>{" "}
 								{errors[field.name] && (
 									<span className="error-message">
-										{errors[field.name]?.message}
+										{String(errors[field.name]?.message)}
 									</span>
 								)}
 							</div>

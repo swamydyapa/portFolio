@@ -1,11 +1,23 @@
 {
-  "compilerOptions": {
-    "composite": true,
-    "skipLibCheck": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true,
-    "strict": true
-  },
-  "include": ["vite.config.ts"]
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"target": "ESNext",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"composite": true,
+		"skipLibCheck": true,
+		"module": "ESNext",
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"moduleResolution": "bundler",
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"strict": true,
+		"jsx": "react",
+		"outDir": "./dist",
+		"types": ["vite/client"]
+	},
+	"include": ["src/**/*", "vite.config.ts", "vite-env.d.ts"],
+	"exclude": ["node_modules"]
 }
