@@ -9,4 +9,5 @@ export default defineConfig({
 	define: {
 		"process.env": JSON.stringify(dotenv.config().parsed),
 	},
+	base: "/portFolio/",
 });
