@@ -1,7 +1,11 @@
 import React from "react";
 import "./skills.css";
-import Frontend from "./Frontend";
-import Backend from "./Backend";
+import {
+	frontEndSkillsData,
+	backEndSkillsData,
+	frameWorksLibrariesData,
+} from "./skillsData";
+import SkillsComp from "./SkillsComp";
 
 const Skills = () => {
 	return (
@@ -9,8 +13,12 @@ const Skills = () => {
 			<h2 className="section__title">Skills</h2>
 			<span className="section__subtitle">My technical level</span>
 			<div className="skills__container container grid">
-				<Frontend />
-				<Backend />
+				<SkillsComp title="FrontEnd TechStack" skills={frontEndSkillsData} />
+				{/* <SkillsComp title="BackEnd Developer" skills={backEndSkillsData} /> */}
+				<SkillsComp
+					title="Frameworks/Libraries"
+					skills={frameWorksLibrariesData}
+				/>
 			</div>
 		</section>
 	);

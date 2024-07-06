@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Swamy-Resume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
 						projects carried out.
 					</p>
 					<a href={CV} download="" className="button button--flex">
-						Download CV{" "}
+						Download CV
 						<svg
 							className="button__icon"
 							xmlns="http://www.w3.org/2000/svg"
