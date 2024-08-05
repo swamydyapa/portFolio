@@ -1,10 +1,13 @@
 import React from "react";
+
 import "./skills.css";
+
 import {
 	frontEndSkillsData,
 	backEndSkillsData,
 	frameWorksLibrariesData,
-} from "./skillsData";
+} from "../../constants";
+
 import SkillsComp from "./SkillsComp";
 
 const Skills = () => {

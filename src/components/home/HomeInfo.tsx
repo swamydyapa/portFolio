@@ -1,10 +1,13 @@
 import React from "react";
+import { homeInfoData } from "../../constants";
 
 const HomeInfo = () => {
+	const { title, subtitle, description, button } = homeInfoData;
+
 	return (
 		<div className="home__data">
 			<h1 className="home__title">
-				Swamy Dyapa
+				{title}
 				<svg
 					width="36"
 					height="36"
@@ -44,13 +47,10 @@ const HomeInfo = () => {
 						fill="#EBA352"></path>
 				</svg>
 			</h1>
-			<h3 className="home__subtitle">Web Developer</h3>
-			<p className="home__description">
-				I'm creative web developer based in Hyderabad , and I'm very passionate
-				and dedicated to my work.
-			</p>
-			<a href="#contact" className="button button--flex">
-				Say Hello
+			<h3 className="home__subtitle">{subtitle}</h3>
+			<p className="home__description">{description}</p>
+			<a href={button.href} className="button button--flex">
+				{button.text}
 				<svg
 					className="button__icon"
 					xmlns="http://www.w3.org/2000/svg"

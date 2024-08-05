@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./services.css";
-import servicesData from "./servicesData.json";
+import { servicesData } from "../../constants";
 
 const Services = () => {
 	const [toggleState, setToggleState] = useState(0);

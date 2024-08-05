@@ -1,51 +1,38 @@
 import React from "react";
 import "./footer.css";
 
+import { footerNavItems, footerSocialLinks } from "../../constants";
+
 const Footer = () => {
-	const currentYear = new Date().getFullYear();
+	const currentYear = new Date().getFullYear(); // Get the current year
+
 	return (
 		<footer className="footer">
 			<div className="footer__container container">
-				<div className="footer__title">Swamy </div>
+				<div className="footer__title">Swamy</div>
 				<ul className="footer__list">
-					<li>
-						<a href="#about" className="footer__link">
-							About
-						</a>
-					</li>
-					<li>
-						<a href="#portfolio" className="footer__link">
-							Projects
-						</a>
-					</li>
-					<li>
-						<a href="#testimonials" className="footer__link">
-							Testimonials
-						</a>
-					</li>
+					{footerNavItems.map((item, index) => (
+						<li key={index}>
+							<a href={item.href} className="footer__link">
+								{item.label}
+							</a>
+						</li>
+					))}
 				</ul>
 				<div className="footer__social">
-					<a
-						href="https://www.instagram.com/"
-						className="footer__social-link"
-						target="_blank">
-						<i className="bx bxl-instagram"></i>
-					</a>
-					<a
-						href="https://twitter.com/"
-						className="footer__social-link"
-						target="_blank">
-						<i className="bx bxl-twitter"></i>
-					</a>
-					<a
-						href="https://github.com/"
-						className="footer__social-link"
-						target="_blank">
-						<i className="bx bxl-github"></i>
-					</a>
+					{footerSocialLinks.map((link, index) => (
+						<a
+							key={index}
+							href={link.href}
+							className="footer__social-link"
+							target="_blank"
+							rel="noopener noreferrer">
+							<i className={link.iconClass}></i>
+						</a>
+					))}
 				</div>
 				<span className="footer__copy">
-					<i className="uil uil-copyright"></i> Swamy dyapa. All rights reserved{" "}
+					<i className="uil uil-copyright"></i> Swamy Dyapa. All rights reserved{" "}
 					{currentYear}
 				</span>
 			</div>

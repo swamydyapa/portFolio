@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { projectsData } from "./Data";
-import { projectsNav } from "./Data";
+import { projectsData, projectsNav } from "../../constants";
 import WorkItems from "./WorkItems";
 
 interface Project {

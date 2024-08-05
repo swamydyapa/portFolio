@@ -1,6 +1,6 @@
 import React from "react";
 import "./testimonials.css";
-import { Data } from "./Data";
+import { testimonialsData } from "../../constants";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -35,7 +35,7 @@ const Testimonials = () => {
 					},
 				}}
 				modules={[Pagination]}>
-				{Data.map(({ id, image, title, description }) => {
+				{testimonialsData.map(({ id, image, title, description }) => {
 					return (
 						<SwiperSlide className="testimonial__card" key={id}>
 							<img src={image} alt="" className="testimonial__img" />

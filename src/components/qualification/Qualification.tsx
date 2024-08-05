@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./qualification.css";
-import { qualifications } from "./qualificationData"; // Importing the data
+import { qualificationsData } from "../../constants"; // Importing the data
 
 const Qualification = () => {
 	const [toggleState, setToggleState] = useState(1);
@@ -122,7 +122,7 @@ const Qualification = () => {
 								? "qualification__content qualification__content-active"
 								: "qualification__content"
 						}>
-						{renderEducationData(qualifications.education)}
+						{renderEducationData(qualificationsData.education)}
 					</div>
 					<div
 						className={
@@ -130,7 +130,7 @@ const Qualification = () => {
 								? "qualification__content qualification__content-active"
 								: "qualification__content"
 						}>
-						{renderExperienceData(qualifications.experience)}
+						{renderExperienceData(qualificationsData.experience)}
 					</div>
 				</div>
 			</div>

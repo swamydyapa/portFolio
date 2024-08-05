@@ -1,10 +1,11 @@
 import React from "react";
 import emailjs from "@emailjs/browser";
+
 import { useForm } from "react-hook-form";
 
 import "./contact.css";
 
-import { contactData, formFields } from "./contactData";
+import { contactData, formFields } from "../../constants";
 
 import ContactCard from "./ContactCard";
 
