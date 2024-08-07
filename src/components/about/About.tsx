@@ -14,9 +14,13 @@ const About = () => {
 				<div className="about__data">
 					<Info />
 					<p className="about__description">
-						Frontend developer, I create web pages with UI user interface,
-						I have years of experience and many clients are happy with the
-						projects carried out.
+						I am a passionate Frontend Developer specializing in crafting
+						dynamic and engaging web experiences. Based in Hyderabad, I have
+						extensive experience in building responsive web applications using
+						modern technologies such as React. With a keen eye for detail and a
+						dedication to delivering high-quality results, I have consistently
+						exceeded client expectations and brought their visions to life.
+						Let’s collaborate and create something extraordinary together!
 					</p>
 					<a href={CV} download="" className="button button--flex">
 						Download CV

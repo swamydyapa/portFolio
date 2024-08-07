@@ -17,7 +17,7 @@ export const homeInfoData = {
 	title: "Swamy Dyapa",
 	subtitle: "Web Developer",
 	description:
-		"I'm a creative web developer based in Hyderabad, and I'm very passionate and dedicated to my work.",
+		"I am a creative and dedicated front-end web developer based in Hyderabad, passionate about crafting modern, user-friendly web applications. With a strong background in building scalable and responsive interfaces, I strive to deliver high-quality, innovative solutions. Let's collaborate to bring your ideas to life.",
 	button: {
 		text: "Say Hello",
 		href: "#contact",
@@ -69,7 +69,6 @@ export const footerSocialLinks = [
 	{ href: "https://github.com/", iconClass: "bx bxl-github" },
 ];
 // projects Data
-
 export const projectsData = [
 	{
 		id: 1,
@@ -78,7 +77,8 @@ export const projectsData = [
 		demoLink: "https://swamydyapa.github.io/portfolio-Clay-Doe/",
 		gitHubRepoLink: "https://github.com/swamydyapa/portfolio-Clay-Doe",
 		category: "web",
-		description: "A personal portfolio website for showcasing work.",
+		description:
+			"A personal portfolio website showcasing Clay Doe's work and skills. Features a modern design and responsive layout.",
 		technologies: ["HTML5", "CSS3", "JavaScript"],
 	},
 	{
@@ -88,7 +88,8 @@ export const projectsData = [
 		demoLink: "https://swamydyapa.github.io/Responsive-Resume-cv-Smith/",
 		gitHubRepoLink: "https://github.com/swamydyapa/Responsive-Resume-cv-Smith",
 		category: "app",
-		description: "A responsive resume template.",
+		description:
+			"A responsive resume template for creating professional CVs. Easily adaptable and customizable for various needs.",
 		technologies: ["HTML", "CSS", "JavaScript", "html2PDF"],
 	},
 	{
@@ -98,7 +99,8 @@ export const projectsData = [
 		demoLink: "https://swamydyapa.github.io/Nike-Website/",
 		gitHubRepoLink: "https://github.com/swamydyapa/Nike-Website",
 		category: "web",
-		description: "A mock website for Nike.",
+		description:
+			"A mock e-commerce website for Nike, showcasing products and collections. Built with modern web technologies.",
 		technologies: ["React", "CSS3", "Vite", "HTML5", "JSON"],
 	},
 	{
@@ -108,7 +110,8 @@ export const projectsData = [
 		demoLink: "https://swamydyapa.github.io/TelePrompter/",
 		gitHubRepoLink: "https://github.com/swamydyapa/TelePrompter",
 		category: "web",
-		description: "A teleprompter web application.",
+		description:
+			"A web application functioning as a teleprompter for presentations. Features user-friendly interface and real-time updates.",
 		technologies: ["React", "Vite", "Tailwind CSS", "React Router DOM"],
 	},
 	{
@@ -118,7 +121,8 @@ export const projectsData = [
 		demoLink: "https://swamydyapa.github.io/AI-Keyword-Extractor/",
 		gitHubRepoLink: "https://github.com/swamydyapa/AI-Keyword-Extractor",
 		category: "web",
-		description: "A tool for extracting keywords using AI.",
+		description:
+			"A tool leveraging AI to extract keywords from text. Utilizes advanced algorithms for accurate keyword extraction.",
 		technologies: ["React", "Open AI", "Chakra UI", "Vite", "Chat GPT"],
 	},
 ];
@@ -139,28 +143,27 @@ export const projectsNav = [
 ];
 
 // testimonials Data
-
 export const testimonialsData = [
 	{
 		id: 1,
 		image: testimonialImg1,
 		title: "Jhon Doe",
 		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
+			"Swamy provided exceptional service and support. The project was completed on time and exceeded our expectations.",
 	},
 	{
 		id: 2,
 		image: testimonialImg2,
 		title: "Harry Clinton",
 		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
+			"The team's expertise and dedication were evident throughout the project. The final product was of high quality and met all our requirements.",
 	},
 	{
 		id: 3,
 		image: testimonialImg3,
 		title: "Sara Cill",
 		description:
-			"A really good job, all aspects of the project were followed step by step and with good results.",
+			"Working with Swamy was a fantastic experience. The project was handled professionally and delivered outstanding results.",
 	},
 ];
 
@@ -191,39 +194,39 @@ export const servicesData = [
 		title: "Web Developer",
 		icon: "uil uil-web-grid services__icon",
 		description:
-			"Service with more than 3 years of experience. Providing quality work to clients and companies.",
+			"Expert web development services with over 3 years of experience. Delivering high-quality and efficient solutions to clients.",
 		servicesList: [
-			"I develop the user interface.",
-			"Web page development.",
-			"I create UX element interactions.",
-			"I position your company brand.",
-			"Design and mockups of products for companies.",
+			"Developing responsive and interactive user interfaces.",
+			"Building and maintaining websites and web applications.",
+			"Creating seamless UX interactions and functionalities.",
+			"Enhancing and positioning your company's online brand.",
+			"Designing and prototyping web products for various needs.",
 		],
 	},
 	{
-		title: "UI/UX Designer",
+		title: "UI Designer",
 		icon: "uil uil-arrow services__icon",
 		description:
-			"Service with more than 3 years of experience. Providing quality work to clients and companies.",
+			"Professional UI design services with a focus on user-centric designs. Over 3 years of experience in crafting visually appealing interfaces.",
 		servicesList: [
-			"I develop the user interface.",
-			"Web page development.",
-			"I create UX element interactions.",
-			"I position your company brand.",
-			"Design and mockups of products for companies.",
+			"Designing intuitive and engaging user interfaces.",
+			"Developing responsive and adaptive web page layouts.",
+			"Creating interactive UX elements for better user experience.",
+			"Enhancing brand identity through thoughtful design.",
+			"Producing detailed design mockups and prototypes.",
 		],
 	},
 	{
 		title: "Visual Designer",
 		icon: "uil uil-edit services__icon",
 		description:
-			"Service with more than 3 years of experience. Providing quality work to clients and companies.",
+			"Comprehensive visual design services with a keen eye for aesthetics. Over 3 years of experience in creating stunning visuals.",
 		servicesList: [
-			"I develop the user interface.",
-			"Web page development.",
-			"I create UX element interactions.",
-			"I position your company brand.",
-			"Design and mockups of products for companies.",
+			"Crafting visually compelling graphics and layouts.",
+			"Designing cohesive visual elements for web and print.",
+			"Creating engaging UX interactions and animations.",
+			"Strengthening brand identity through visual storytelling.",
+			"Designing and producing high-quality visual assets.",
 		],
 	},
 ];
