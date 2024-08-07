@@ -78,6 +78,8 @@ export const projectsData = [
 		demoLink: "https://swamydyapa.github.io/portfolio-Clay-Doe/",
 		gitHubRepoLink: "https://github.com/swamydyapa/portfolio-Clay-Doe",
 		category: "web",
+		description: "A personal portfolio website for showcasing work.",
+		technologies: ["HTML5", "CSS3", "JavaScript"],
 	},
 	{
 		id: 2,
@@ -86,6 +88,8 @@ export const projectsData = [
 		demoLink: "https://swamydyapa.github.io/Responsive-Resume-cv-Smith/",
 		gitHubRepoLink: "https://github.com/swamydyapa/Responsive-Resume-cv-Smith",
 		category: "app",
+		description: "A responsive resume template.",
+		technologies: ["HTML", "CSS", "JavaScript", "html2PDF"],
 	},
 	{
 		id: 3,
@@ -94,6 +98,8 @@ export const projectsData = [
 		demoLink: "https://swamydyapa.github.io/Nike-Website/",
 		gitHubRepoLink: "https://github.com/swamydyapa/Nike-Website",
 		category: "web",
+		description: "A mock website for Nike.",
+		technologies: ["React", "CSS3", "Vite", "HTML5", "JSON"],
 	},
 	{
 		id: 4,
@@ -102,6 +108,8 @@ export const projectsData = [
 		demoLink: "https://swamydyapa.github.io/TelePrompter/",
 		gitHubRepoLink: "https://github.com/swamydyapa/TelePrompter",
 		category: "web",
+		description: "A teleprompter web application.",
+		technologies: ["React", "Vite", "Tailwind CSS", "React Router DOM"],
 	},
 	{
 		id: 5,
@@ -110,8 +118,11 @@ export const projectsData = [
 		demoLink: "https://swamydyapa.github.io/AI-Keyword-Extractor/",
 		gitHubRepoLink: "https://github.com/swamydyapa/AI-Keyword-Extractor",
 		category: "web",
+		description: "A tool for extracting keywords using AI.",
+		technologies: ["React", "Open AI", "Chakra UI", "Vite", "Chat GPT"],
 	},
 ];
+
 export const projectsNav = [
 	{
 		name: "All",
