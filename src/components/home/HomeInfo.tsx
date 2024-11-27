@@ -47,7 +47,7 @@ const HomeInfo = () => {
 						fill="#EBA352"></path>
 				</svg>
 			</h1>
-			<h3 className="home__subtitle">{subtitle}</h3>
+			<h2 className="home__subtitle">{subtitle}</h2>
 			<p className="home__description">{description}</p>
 			<a href={button.href} className="button button--flex">
 				{button.text}

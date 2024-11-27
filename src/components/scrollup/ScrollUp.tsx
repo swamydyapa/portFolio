@@ -19,7 +19,12 @@ const ScrollUp = () => {
 		};
 	}, []);
 	return (
-		<a href="#" className="scrollup">
+		<a
+			href="#"
+			className="scrollup"
+			aria-label="Scroll to top"
+			role="button"
+			aria-live="polite">
 			<i className="uil uil-arrow-up scrollup__icon"></i>
 		</a>
 	);

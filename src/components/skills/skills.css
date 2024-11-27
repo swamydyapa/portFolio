@@ -31,15 +31,17 @@
 }
 .skills__data i {
 	font-size: 1.3rem;
-	/* text-align: center; */
+	text-align: center;
 	color: var(--title-color);
 }
 .skills__name {
 	font-size: var(--normal-font-size);
 	font-weight: var(--font-medium);
+	color: var(--title-color);
 	line-height: 18px;
 }
 .skills__level {
+	color: var(--title-color);
 	font-size: var(--tiny-font-size);
 }
 

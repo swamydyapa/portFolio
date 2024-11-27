@@ -23,20 +23,22 @@ export const homeInfoData = {
 		href: "#contact",
 	},
 };
-
 // Social Data
 export const socialData = [
 	{
 		href: "https://www.instagram.com/",
-		className: "uil uil-instagram",
+		iconClass: "uil uil-instagram",
+		label: "Instagram",
 	},
 	{
 		href: "https://twitter.com/",
-		className: "uil uil-twitter-alt",
+		iconClass: "uil uil-twitter-alt",
+		label: "Twitter",
 	},
 	{
 		href: "https://github.com/",
-		className: "uil uil-github-alt",
+		iconClass: "uil uil-github-alt",
+		label: "GitHub",
 	},
 ];
 
@@ -55,19 +57,32 @@ export const navItemsData = [
 	{ href: "#contact", icon: "uil uil-message nav__icon", label: "Contact" },
 ];
 
-//  navigation items for the footer
+// Navigation items for the footer
 export const footerNavItems = [
 	{ href: "#about", label: "About" },
 	{ href: "#portfolio", label: "Projects" },
 	{ href: "#testimonials", label: "Testimonials" },
 ];
 
-// social links for the footer
+// Social links for the footer
 export const footerSocialLinks = [
-	{ href: "https://www.instagram.com/", iconClass: "bx bxl-instagram" },
-	{ href: "https://twitter.com/", iconClass: "bx bxl-twitter" },
-	{ href: "https://github.com/", iconClass: "bx bxl-github" },
+	{
+		href: "https://www.instagram.com/",
+		iconClass: "bx bxl-instagram",
+		label: "Instagram Profile", // Adding aria-label for screen readers
+	},
+	{
+		href: "https://twitter.com/",
+		iconClass: "bx bxl-twitter",
+		label: "Twitter Profile", // Adding aria-label for screen readers
+	},
+	{
+		href: "https://github.com/",
+		iconClass: "bx bxl-github",
+		label: "GitHub Profile", // Adding aria-label for screen readers
+	},
 ];
+
 // projects Data
 export const projectsData = [
 	{
@@ -137,9 +152,9 @@ export const projectsNav = [
 	{
 		name: "App",
 	},
-	{
-		name: "Design",
-	},
+	// {
+	// 	name: "Design",
+	// },
 ];
 
 // testimonials Data
@@ -147,7 +162,7 @@ export const testimonialsData = [
 	{
 		id: 1,
 		image: testimonialImg1,
-		title: "Jhon Doe",
+		title: "John Doe",
 		description:
 			"Swamy provided exceptional service and support. The project was completed on time and exceeded our expectations.",
 	},
@@ -161,7 +176,7 @@ export const testimonialsData = [
 	{
 		id: 3,
 		image: testimonialImg3,
-		title: "Sara Cill",
+		title: "Sara Bill",
 		description:
 			"Working with Swamy was a fantastic experience. The project was handled professionally and delivered outstanding results.",
 	},
@@ -170,8 +185,8 @@ export const testimonialsData = [
 // Skills Data
 
 export const frontEndSkillsData = [
-	{ name: "HTML", level: "Basic", icon: "bx bxl-html5" },
-	{ name: "CSS", level: "Advanced", icon: "bx bxl-css3" },
+	{ name: "HTML5", level: "Basic", icon: "bx bxl-html5" },
+	{ name: "CSS3", level: "Advanced", icon: "bx bxl-css3" },
 	{ name: "JavaScript", level: "Intermediate", icon: "bx bxl-javascript" },
 	{ name: "Git", level: "Intermediate", icon: "bx bxl-git" },
 	{ name: "GitHub", level: "Intermediate", icon: "bx bxl-github" },
@@ -216,19 +231,19 @@ export const servicesData = [
 			"Producing detailed design mockups and prototypes.",
 		],
 	},
-	{
-		title: "Visual Designer",
-		icon: "uil uil-edit services__icon",
-		description:
-			"Comprehensive visual design services with a keen eye for aesthetics. Over 3 years of experience in creating stunning visuals.",
-		servicesList: [
-			"Crafting visually compelling graphics and layouts.",
-			"Designing cohesive visual elements for web and print.",
-			"Creating engaging UX interactions and animations.",
-			"Strengthening brand identity through visual storytelling.",
-			"Designing and producing high-quality visual assets.",
-		],
-	},
+	// {
+	// 	title: "Visual Designer",
+	// 	icon: "uil uil-edit services__icon",
+	// 	description:
+	// 		"Comprehensive visual design services with a keen eye for aesthetics. Over 3 years of experience in creating stunning visuals.",
+	// 	servicesList: [
+	// 		"Crafting visually compelling graphics and layouts.",
+	// 		"Designing cohesive visual elements for web and print.",
+	// 		"Creating engaging UX interactions and animations.",
+	// 		"Strengthening brand identity through visual storytelling.",
+	// 		"Designing and producing high-quality visual assets.",
+	// 	],
+	// },
 ];
 
 // qualifications Data
@@ -237,7 +252,7 @@ export const qualificationsData = {
 	education: [
 		{
 			degree: "B.Tech | CSE | 62.44",
-			institution: "MallaReddy College of Engineering",
+			institution: "Malla Reddy College of Engineering",
 			year: "2018",
 		},
 		{
@@ -274,7 +289,7 @@ export const contactData = [
 		icon: "bx bxl-whatsapp contact__card-icon",
 		title: "Whatsapp",
 		data: "9440553982",
-		link: "https://api.whatsapp.com/send?phone=9440553982&text=Hello, more information!",
+		link: `https://api.whatsapp.com/send?phone=9440553982&text=Hello, more information!`,
 		buttonText: "Write me",
 	},
 	// {
