@@ -269,7 +269,7 @@ export const qualificationsData = {
 	experience: [
 		{
 			role: "Software Engineer",
-			company: "Abc",
+			company: "Freelancer",
 			year: "2021 - Present",
 		},
 	],
