@@ -23,7 +23,7 @@ const SkillsComp = ({ skills, title }) => {
 							<i className={` ${skill.icon}`} aria-hidden="true"></i>
 							<div>
 								<h4 className="skills__name">{skill.name}</h4>
-								<span className="skills__level">{skill.level}</span>
+								{/* <span className="skills__level">{skill.level}</span> */}
 							</div>
 						</div>
 					))}
@@ -35,7 +35,7 @@ const SkillsComp = ({ skills, title }) => {
 							<i className={` ${skill.icon}`} aria-hidden="true"></i>
 							<div>
 								<h4 className="skills__name">{skill.name}</h4>
-								<span className="skills__level">{skill.level}</span>
+								{/* <span className="skills__level">{skill.level}</span> */}
 							</div>
 						</div>
 					))}

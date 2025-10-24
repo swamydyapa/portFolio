@@ -162,21 +162,21 @@ export const testimonialsData = [
 	{
 		id: 1,
 		image: testimonialImg1,
-		title: "John Doe",
+		title: "John",
 		description:
 			"Swamy provided exceptional service and support. The project was completed on time and exceeded our expectations.",
 	},
 	{
 		id: 2,
 		image: testimonialImg2,
-		title: "Harry Clinton",
+		title: "Harry",
 		description:
 			"The team's expertise and dedication were evident throughout the project. The final product was of high quality and met all our requirements.",
 	},
 	{
 		id: 3,
 		image: testimonialImg3,
-		title: "Sara Bill",
+		title: "Sara",
 		description:
 			"Working with Swamy was a fantastic experience. The project was handled professionally and delivered outstanding results.",
 	},
