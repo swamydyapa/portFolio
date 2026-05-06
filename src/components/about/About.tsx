@@ -14,17 +14,12 @@ const About = () => {
 				<div className="about__data">
 					<Info />
 					<p className="about__description">
-						I am a Full Stack Developer with over 4 years of experience in the
-						professional software landscape, currently contributing to digital
-						transformation at Deloitte. My journey is rooted in a deep love for
-						the React.js ecosystem, where I specialize in building modular,
-						reusable UI architectures that don't just look good but perform
-						under pressure. <br></br>Throughout my career—most notably with
-						CareFirst BlueCross BlueShield—I’ve moved beyond just "writing
-						code." I focus on the entire lifecycle of a product. Whether it's
-						architecting complex state management with Redux, designing RESTful
-						APIs in Node.js, or containerizing microservices with Docker and
-						Kubernetes, I thrive on making systems more efficient and scalable.
+						I am a software engineer with over 4+ years of experience at
+						Deloitte, specializing in building high-performance React/Node.js
+						applications and orchestrating cloud-native deployments via AWS and
+						Kubernetes. I bridge the gap between intuitive UI design and robust
+						backend infrastructure, having successfully modernized
+						enterprise-scale portals for over 3.5 million users.
 					</p>
 					<a href={CV} download="" className="button button--flex">
 						Download CV
