@@ -6,6 +6,7 @@ import React from "react";
  * @param {string} title - Title of the skills section.
  * @returns {JSX.Element} The SkillsComp component.
  */
+
 const SkillsComp = ({ skills, title }) => {
 	// Splitting skills into two groups for two columns
 	const splitIndex = Math.ceil(skills.length / 2);
