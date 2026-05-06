@@ -16,8 +16,8 @@ const Skills = () => {
 			<h2 className="section__title">Skills</h2>
 			<span className="section__subtitle">My technical level</span>
 			<div className="skills__container container grid">
-				<SkillsComp title="FrontEnd TechStack" skills={frontEndSkillsData} />
-				{/* <SkillsComp title="BackEnd Developer" skills={backEndSkillsData} /> */}
+				<SkillsComp title="Frontend TechStack" skills={frontEndSkillsData} />
+				<SkillsComp title="Backend TechStack" skills={backEndSkillsData} />
 				<SkillsComp
 					title="Frameworks/Libraries"
 					skills={frameWorksLibrariesData}

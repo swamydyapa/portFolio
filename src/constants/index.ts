@@ -14,10 +14,10 @@ import {
 
 // Home Information Data
 export const homeInfoData = {
-	title: "Swamy Dyapa",
-	subtitle: "Web Developer",
+	title: "Swamy D",
+	subtitle: "Software Engineer",
 	description:
-		"I am a creative and dedicated front-end web developer based in Hyderabad, passionate about crafting modern, user-friendly web applications. With a strong background in building scalable and responsive interfaces, I strive to deliver high-quality, innovative solutions. Let's collaborate to bring your ideas to life.",
+		"I architect scalable web applications and automate cloud-native deployments to bridge the gap between elegant code and robust infrastructure. Currently delivering enterprise-grade digital solutions at Deloitte.",
 	button: {
 		text: "Say Hello",
 		href: "#contact",
@@ -193,9 +193,9 @@ export const frontEndSkillsData = [
 ];
 export const backEndSkillsData = [
 	{ name: "Node Js", level: "Basic", icon: "bx bxl-nodejs" },
-	{ name: "Python", level: "Intermediate", icon: "bx bxl-python" },
+	{ name: "Express JS", level: "Intermediate", icon: "bx bxs-server" },
 	{ name: "MySQL", level: "Intermediate", icon: "bx bxs-data" },
-	{ name: "Firebase", level: "Intermediate", icon: "bx bxl-firebase" },
+	// { name: "Firebase", level: "Intermediate", icon: "bx bxl-firebase" },
 ];
 export const frameWorksLibrariesData = [
 	{ name: "Tailwind-CSS", level: "Intermediate", icon: "bx bxl-tailwind-css" },
@@ -269,8 +269,8 @@ export const qualificationsData = {
 	experience: [
 		{
 			role: "Software Engineer",
-			company: "Freelancer",
-			year: "2021 - Present",
+			company: "Deloitte",
+			year: "Jan 2022 - Present",
 		},
 	],
 };
@@ -281,14 +281,14 @@ export const contactData = [
 	{
 		icon: "bx bx-mail-send contact__card-icon",
 		title: "Email",
-		data: "swamydyapa6@gmail.com",
+		data: "swamyd.0625@gmail.com",
 		link: "mailto:swamydyapa6@gmail.com",
 		buttonText: "Write me",
 	},
 	{
 		icon: "bx bxl-whatsapp contact__card-icon",
 		title: "Whatsapp",
-		data: "9440553982",
+		data: "8341590625",
 		link: `https://api.whatsapp.com/send?phone=9440553982&text=Hello, more information!`,
 		buttonText: "Write me",
 	},

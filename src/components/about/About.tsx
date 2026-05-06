@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/swamy_Resume-d.pdf";
+import CV from "../../assets/Swamy_Dyapa_ResumeP.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -14,13 +14,17 @@ const About = () => {
 				<div className="about__data">
 					<Info />
 					<p className="about__description">
-						I am a passionate Frontend Developer specializing in crafting
-						dynamic and engaging web experiences. Based in Hyderabad, I have
-						extensive experience in building responsive web applications using
-						modern technologies such as React. With a keen eye for detail and a
-						dedication to delivering high-quality results, I have consistently
-						exceeded client expectations and brought their visions to life.
-						Let’s collaborate and create something extraordinary together!
+						I am a Full Stack Developer with over 4 years of experience in the
+						professional software landscape, currently contributing to digital
+						transformation at Deloitte. My journey is rooted in a deep love for
+						the React.js ecosystem, where I specialize in building modular,
+						reusable UI architectures that don't just look good but perform
+						under pressure. <br></br>Throughout my career—most notably with
+						CareFirst BlueCross BlueShield—I’ve moved beyond just "writing
+						code." I focus on the entire lifecycle of a product. Whether it's
+						architecting complex state management with Redux, designing RESTful
+						APIs in Node.js, or containerizing microservices with Docker and
+						Kubernetes, I thrive on making systems more efficient and scalable.
 					</p>
 					<a href={CV} download="" className="button button--flex">
 						Download CV
